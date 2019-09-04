@@ -1,0 +1,30 @@
+{
+  "short_name": "NC",
+  "name": "Naughty confessions",
+  "theme_color": "white",
+  "background_color": "blue",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "images/bgcolor.jpg",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/bgcolor.jpg",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/bgcolor.jpg",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "images/bgcolor.jpg",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/?utm_source=launcher"
+}

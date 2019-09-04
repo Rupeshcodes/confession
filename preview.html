@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+       <title>Naughty confessions 2019</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Sniglet" rel="stylesheet">
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<style>
+a{
+text-decoration: none; 
+    color: white;
+}
+
+.mySlides {display:none;}
+body {
+  background-image:url("images/back.jpg");
+
+   background-repeat:no-repeat;
+
+   background-size:cover;
+ 
+}
+div.authcontain{
+          background-color:white;
+			}
+      text1 {
+                
+				text-shadow: 1px 1px black;
+				text-align:center;
+				}
+    div.background {
+      background-image: url('bgimages/3.png');
+      background-size:contain;
+      border: 1px solid black;
+      height:350px;
+      width:350px;
+	  overflow:hidden;
+      white-space: initial;
+      word-wrap:break-word;
+	
+    }
+     
+    div.transbox {
+	margin-top:20px;
+	padding-left:25px;
+	padding-right:25px;
+	height: 300px;
+	width:300px;
+	overflow: hidden;
+	font-size: 1em;
+	background-color: rgb(0,0,0,0.25);
+	font-family: 'Sniglet', cursive;
+	white-space: initial;
+	white-space: pre-line;
+	}
+     
+
+    </style>
+        <style>
+        table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  .mySlides {display:none;}
+  </style>
+  <script>
+   var uname=localStorage.getItem("uname");
+	 var tcolor=localStorage.getItem("tcolor");
+	 var cont=localStorage.getItem("cont");
+	  var background=localStorage.getItem("background");
+	  var lo=parseInt(background);
+	  var tpath;
+   function test(){
+	 
+	  document.getElementById("text1").innerHTML=cont;
+	  document.getElementById("author").innerHTML=uname;
+	
+  document.getElementById("text1").style.color=tcolor;
+
+  
+switch(lo)
+{case 0: document.getElementById("backgroundimage").style.backgroundImage = "url('bgimages/1.png')";tpath="bgimages/1.png";break;
+case 1: document.getElementById("backgroundimage").style.backgroundImage = "url('bgimages/2.png')"; tpath="bgimages/2.png";break;
+case 2: document.getElementById("backgroundimage").style.backgroundImage = "url('bgimages/3.png')"; tpath="bgimages/3.png";break;
+case 3: document.getElementById("backgroundimage").style.backgroundImage = "url('bgimages/4.png')"; tpath="bgimages/4.png";break;
+case 4: document.getElementById("backgroundimage").style.backgroundImage = "url('bgimages/5.png')";tpath="bgimages/5.png"; break;
+case 5: document.getElementById("backgroundimage").style.backgroundImage = "url('bgimages/6.png')"; tpath="bgimages/6.png";break;
+case 6: document.getElementById("backgroundimage").style.backgroundImage = "url('bgimages/7.png')";tpath="bgimages/7.png";break;
+case 7: document.getElementById("backgroundimage").style.backgroundImage = "url('bgimages/8.png')"; tpath="bgimages/8.png";break;
+case 8: document.getElementById("backgroundimage").style.backgroundImage = "url('bgimages/9.png')"; tpath="bgimages/9.png";break;
+case 9: document.getElementById("backgroundimage").style.backgroundImage = "url('bgimages/10.png')"; tpath="bgimages/10.png";break;
+case 10: document.getElementById("backgroundimage").style.backgroundImage = "url('bgimages/11.png')"; tpath="bgimages/11.png";break;
+case 11: document.getElementById("backgroundimage").style.backgroundImage = "url('bgimages/12.png')"; tpath="bgimages/12.png";break;
+
+}
+
+
+
+	  }
+	
+	</script>
+	
+    <script>
+	   $(function() {
+    $('#text1').css('font-size', '40px');
+   
+    while( $('#text1').height() > 220) {
+        $('#text1').css('font-size', (parseInt($('#text1').css('font-size')) - 1) + "px" );
+    }
+    
+});
+ </script>
+  
+    </head>
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+          <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title"><a href="index.html"></span><img src="images/bgcolor.jpg" height="35px" /> &nbsp; Naughty confessions 2019  </a>|
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation. We hide it in small screens. -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+              <a class="mdl-navigation__link" href="https://m.facebook.com/Naughty-Confessions-2019-2247531465507467/?tsid=0.4471323761981505&source=result" target="blank">facebook</a>
+              <a class="mdl-navigation__link" href="https://www.instagram.com/naughty_confessions2019/" target="blank">instagram</a>
+              <a class="mdl-navigation__link" href="index.html">show confessions</a>
+			  <a class="mdl-navigation__link" href="confess.html">confess</a>
+              <a class="mdl-navigation__link" href="aboutus.html">about us</a>
+            </nav>
+          </div>
+        </header>
+        <div class="mdl-layout__drawer">
+          <span class="mdl-layout-title">Naughty Confession</span>
+          <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="https://m.facebook.com/Naughty-Confessions-2019-2247531465507467/?tsid=0.4471323761981505&source=result" target="blank">facebook</a>
+              <a class="mdl-navigation__link" href="https://www.instagram.com/naughty_confessions2019/" target="blank">instagram</a>
+              <a class="mdl-navigation__link" href="index.html">show confessions</a>
+			  <a class="mdl-navigation__link" href="confess.html">confess</a>
+              <a class="mdl-navigation__link" href="aboutus.html">about us</a>
+          </nav>
+        </div>
+        <main class="mdl-layout__content">
+          <div class="page-content">
+              <div class="mdl-grid">
+                  
+                  
+
+                  <div class="mdl-cell mdl-cell--4-col" style="margin-top:5px;">
+                   
+                <center>
+                   <div class="background" id="backgroundimage">
+                    <div class="transbox" id="transbox" >
+                      <div id="text1" class="text1">please refresh the page </div>
+                    <div class="authcontain">by <span id="author">admin<span></div>
+
+                    </div>
+                  </div>
+	
+				  
+				<img src="images/right-arrow-29.gif" height="35px" >  <button id="demo-show-toast" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" type="button" onclick="go()" style="margin-top:5px">submit confession <i class="fas fa-arrow-right"></i></button>
+             <h4>Good Job</h4>
+				  </center>
+               
+                        </div>
+						<div class="mdl-cell mdl-cell--4-col">
+						<center>
+								
+					<div style="text-align:center">
+                       <br>
+					   <br>
+                        <button id="demo-show-toast" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" type="button" onclick="window.history.back();return false;"><i class="fas fa-arrow-left"></i> back to Editing</button>
+                     <br>
+					 <br>
+                   </div>
+				
+						
+						<h4 style="font-family:FontAwesome;">"Confession are meant to be heard"</h4>
+
+                    <div class="w3-content w3-section" style="max-width:500px;margin-left:25px">
+                      <img class="mySlides" src="images/1.png" style="width:100%">
+                      <img class="mySlides" src="images/2.png" style="width:100%">
+                      <img class="mySlides" src="images/3.png" style="width:100%">
+                    </div>
+					
+				
+					</center>
+					</div>
+						
+                  <div class="mdl-cell mdl-cell--4-col">
+
+                      <h4 class="w3-center">Other Options<br>for background</h4>
+
+                      <div class="w3-content w3-display-container" style="height:300px;width:300px">
+                        <img class="bgSlides" src="bgimages/1.png" style="width:100%">
+                        <img class="bgSlides" src="bgimages/2.png" style="width:100%">
+                        <img class="bgSlides" src="bgimages/3.png" style="width:100%">
+                        <img class="bgSlides" src="bgimages/4.png" style="width:100%">
+                        <img class="bgSlides" src="bgimages/5.png" style="width:100%">
+						  <img class="bgSlides" src="bgimages/6.png" style="width:100%">
+                        <img class="bgSlides" src="bgimages/7.png" style="width:100%">
+                        <img class="bgSlides" src="bgimages/8.png" style="width:100%">
+                        <img class="bgSlides" src="bgimages/9.png" style="width:100%">
+                        <img class="bgSlides" src="bgimages/10.png" style="width:100%">
+						 <img class="bgSlides" src="bgimages/11.png" style="width:100%">
+                        <img class="bgSlides" src="bgimages/12.png" style="width:100%">
+                      
+                   
+                     
+                         <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                        
+                      </div>
+                      
+                     
+                  </div>
+                </div>
+                     
+       
+          
+          </div>
+   </main>       
+	   <footer class="mdl-mini-footer">
+              <div class="mdl-mini-footer__left-section">
+                <div class="mdl-logo">please visit our <a href="https://www.instagram.com/naughty_confessions2019/">insta <font style="color:skyblue">click here </font></a> and <a href="https://m.facebook.com/Naughty-Confessions-2019-2247531465507467/?tsid=0.4471323761981505&source=result">fb page <font style="color:skyblue">click here </font> <a/>&nbsp;| 
+                  <a href="https://www.freeprivacypolicy.com/privacy/view/695a26c2bc6911c6876c18ffa03677f1">Privacy and policy</a>
+                </div> 
+              </div>
+            </footer>
+        
+        
+      </div>
+      <script>
+
+	 
+	  
+        var slideIndex = 1;
+        var s;
+        showDivs(slideIndex);
+        test();
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("bgSlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+           s=slideIndex-1;
+          //alert("value:"+s);
+        }
+        
+        </script>
+
+        <!--firebase initial-->
+	    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+      <script src="javascript/index.js"></script>
+       <script src="javascript/confession.js"></script>
+       <script src="javascript/slide.js"></script>
+       <script src="javascript/textcolor.js"></script>
+	 
+  
+ 
+</body>
+</html>
